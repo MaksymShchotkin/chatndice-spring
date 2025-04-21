@@ -7,12 +7,8 @@ public class ChatMessage {
     private String sender;
     private String roomId;
 
-    // For DICE type
     private String diceType; // e.g. "d6", "d20"
     private int diceCount;
-
-    // Getters and Setters
-    // (add for diceType and diceCount)
     
     public String getType() { return type; }
     public void setType(String type) { this.type = type; }
